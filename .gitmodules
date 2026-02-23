@@ -1,0 +1,3 @@
+[submodule "client-module1"]
+	path = src/modules/client-module1
+	url = https://github.com/meetprajapati20/clientmodule1.git
