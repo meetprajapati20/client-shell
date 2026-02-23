@@ -8,8 +8,8 @@ const loadSafeModule = (importPromise) => {
 };
 
 
-const Module1 = loadSafeModule(import('./modules/client-module1/src/index.js'));
-const Module2 = loadSafeModule(import('./modules/client-module2/src/index.js'));
+const Module1 = loadSafeModule(import('./modules/clientmodule1/src/index.js'));
+const Module2 = loadSafeModule(import('./modules/clientmodule2/src/index.js'));
 
 export default function AppRouter() {
   return (
